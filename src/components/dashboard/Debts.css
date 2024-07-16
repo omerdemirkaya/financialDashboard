@@ -1,0 +1,28 @@
+.debts-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    overflow-y: auto; /* İçerik taşırsa sadece dikey kaydırma çubuğu göster */
+    max-height: 80vh; /* İçeriğin maksimum yüksekliği */
+  }
+  
+  .debts-table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .debts-table th, .debts-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .debts-chart {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  

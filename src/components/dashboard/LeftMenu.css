@@ -1,0 +1,30 @@
+.left-menu{
+    width: 12%;
+    height: 90vh;
+    background-color: #E0FBE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul li {
+    border: 3px double #4CAF50;
+    height: 70px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-size: 1.5vh;
+    font-family: 'Poppins', monospace;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    background-color: #fff; 
+    padding: 10px;
+}
+ul li:hover{
+    background-color: #ffffff42;
+}
+
