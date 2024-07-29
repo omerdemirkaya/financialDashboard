@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
         <img style={{ marginLeft: '5px' }} src={logo} alt="" />
-        <span>Financial DASHBOARD <sub>**Manage your business**</sub></span>
+        <span>Special Financial DASHBOARD <sub>**Manage your business**</sub></span>
         <img className="account" src={account} alt="" />
     </div>
   )
